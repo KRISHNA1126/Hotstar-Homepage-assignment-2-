@@ -1,0 +1,44 @@
+#logo
+{
+    height: 45px;
+    width: 160px;
+   
+}
+.drop
+{ color: transparent;
+    margin-top: -14px;
+    display: flex;}
+    .nv
+    {background-color: #121926!important;}
+
+    .crowsel
+    { 
+        position: absolute;
+    
+    height: 100%;
+    width: 50%;
+    margin-left: 685px;
+    }
+    
+.dop
+{ width: 100%; height: 100%; border-radius: 20px; 
+}
+.ss
+{ display: inline; 
+
+}
+.ii
+{
+    height: 200px;
+    width: 12%;
+    margin-left: 20.7px;
+border-radius: 15px; } 
+.foot
+{     margin-left: 2%;
+    margin-bottom: 1%;}
+    
+   .hh
+   { color: black; margin-top: 30px; 
+margin-left: 50px;}
+.pom
+{font-size: 20px; color: black}
