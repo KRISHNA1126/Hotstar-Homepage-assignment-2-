@@ -42,3 +42,11 @@ border-radius: 15px; }
 margin-left: 50px;}
 .pom
 {font-size: 20px; color: black}
+#footer
+{margin-top: 2%; }
+body
+{background-color:#121926 !important; color: aliceblue !important; }
+.dark-mode{
+    background-color:black !important;
+    color: white!important;}
+

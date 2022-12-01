@@ -12,13 +12,18 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+  
+  
+  </script>
+ 
 </head>
 
-<body style="background-color:#121926;">
+<body class="dark-mode">
 
   <header>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark nv"
-      style="margin-top: 0px; background-color: #121926!important;">
+    <nav class="navbar navbar-expand-md  navbar-dark   "
+      style="margin-top: 0px; ">
       <!-- Brand -->
       <a class="navbar-brand" href="#">
         <img id="logo" src="image/disney-hotstar-logo.png" alt="Logo">
@@ -65,6 +70,15 @@
             <a class="dropdown-item" href="#">Link 3</a>
           </div>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            <b>Light dark-mode</b>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#"><button onclick="myFunction()">Toggle dark mode</button></a>
+            
+          </div>
+        </li>
       </div>
 
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -104,8 +118,9 @@
 
     </nav>
   </header>
-    <main>
-      <div id="demo" class="carousel slide" data-ride="carousel">
+    
+  <main>
+         <div id="demo" class="carousel slide" data-ride="carousel">
 
         <!-- Indicators -->
         <ul class="carousel-indicators">
@@ -147,9 +162,9 @@
 
       </div>
       <br>
-      <div class="tray-container" style="background-color:#121926
-      ; width: 100%; height: fit-content;">
-      <h3 class="tray-title" style="margin-left: 10px; color: azure;">Latest & Trending</h3>
+      <div class="tray-container" style= "
+      width: 100%; height: fit-content;">
+      <h3 class="tray-title" style="margin-left: 10px; ;">Latest & Trending</h3>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
@@ -159,9 +174,9 @@
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
  </div>
       <br>
-      <div class="tray-container" style="background-color:#121926
-      ; width: 100%; height: fit-content;">
-      <h3 class="tray-title" style="margin-left: 10px; color: azure;">Populer Shows</h3>
+      <div class="tray-container" style="
+       width: 100%; height: fit-content;">
+      <h3 class="tray-title" style="margin-left: 10px;">Populer Shows</h3>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
@@ -172,9 +187,9 @@
 
  </div>
  <br>
- <div class="tray-container" style="background-color:#121926
- ; width: 100%; height: fit-content;">
- <h3 class="tray-title" style="margin-left: 10px; color: azure;">Movies Recommended For You</h3>
+ <div class="tray-container" style="
+  width: 100%; height: fit-content;">
+ <h3 class="tray-title" style="margin-left: 10px;">Movies Recommended For You</h3>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
@@ -184,9 +199,8 @@
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 </div>
 <br>
- <div class="tray-container" style="background-color:#121926
- ; width: 100%; height: fit-content;">
- <h3 class="tray-title" style="margin-left: 10px; color: azure;">Populer in Reality</h3>
+ <div class="tray-container" style=" width: 100%; height: fit-content;">
+ <h3 class="tray-title" style="margin-left: 10px;">Populer in Reality</h3>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
@@ -196,9 +210,9 @@
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 </div>
 <br>
- <div class="tray-container" style="background-color:#121926
- ; width: 100%; height: fit-content;">
- <h3 class="tray-title" style="margin-left: 10px; color: azure;">Populer in Romance</h3>
+ <div class="tray-container" style="
+  width: 100%; height: fit-content;">
+ <h3 class="tray-title" style="margin-left: 10px; ">Populer in Romance</h3>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
@@ -208,12 +222,10 @@
 <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 </div>
 
-      
+</main>
+<hr>
 
-    </main>
-    <hr>
-    <hr>
-    <footer>
+    <footer id="footer">
           <center style="margin-left:-20px;">
             <a href="https://www.instagram.com/disneyplushotstar/?hl=en" target="_new"><img class="foot" src="oo/instagram (1).png" width="30"
                     height="30" alt="insta"></a>
@@ -228,13 +240,13 @@
         </center>
      
         <center><b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          word-spacing: 5px; color: white;"> All Right Reserved By Krishna Internship LTD.&trade; </b></center
+          word-spacing: 5px; color: white;"> All Right Reserved By Krishna Internship LTD.&trade; </b></center>
 
 
   </footer>
 
   
-
+<script src="java.js"></script>
 
 </body>
 
