@@ -51,11 +51,11 @@ body
     color: white!important;}
 
     #coupon{
-        height: 227px;
-        width:400px;
+        height: 270px;
+        width:60%;
         background-color:midnightblue;
         color: darkkhaki;
-        margin-left: 36%;
+        margin-left: 20%;
         position: absolute;
         z-index: 100;
         margin-top:-100%;
@@ -63,3 +63,5 @@ body
         border-radius: 7px;
         
     }
+   
+  

@@ -5,10 +5,15 @@ function myFunction() {
 
   function loadCoupon(){
     document.getElementById('coupon').style.visibility = 'visible';
-    document.getElementById('body').style.opacity='0.6';
+    document.getElementById('body').style.opacity = '-2';
+   
+    
 }
 
 function closeCoupon(){
     document.getElementById('coupon').style.visibility = 'hidden';
     document.getElementById('body').style.opacity='1';
 }
+
+
+
