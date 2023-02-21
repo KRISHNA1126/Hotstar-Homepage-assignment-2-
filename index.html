@@ -12,6 +12,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Julee&family=Prompt:wght@300&family=Titan+One&display=swap"
+    rel="stylesheet">
   <script>
 
 
@@ -19,9 +27,9 @@
 
 </head>
 
-<body class="dark-mode" >
+<body class="dark-mode">
 
-  <header>
+  <header style="">
     <nav class="navbar navbar-expand-md  navbar-dark   " style="margin-top: 0px; ">
       <!-- Brand -->
       <a class="navbar-brand" href="#">
@@ -30,7 +38,7 @@
       <div class="drop">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b>TV</b>
+            <b style="font-family: 'Comfortaa', cursive;color: white;">TV</b>
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Link 1</a>
@@ -40,7 +48,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b>Movies</b>
+            <b style="font-family: 'Comfortaa', cursive;color: white;">Movies</b>
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Link 1</a>
@@ -51,7 +59,7 @@
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b> Sports</b>
+            <b style="font-family: 'Comfortaa', cursive;color: white;"> Sports</b>
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Link 1</a>
@@ -61,7 +69,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b>Disney+</b>
+            <b style="font-family: 'Comfortaa', cursive;color: white; ">Disney+</b>
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Link 1</a>
@@ -69,52 +77,51 @@
             <a class="dropdown-item" href="#">Link 3</a>
           </div>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            <b>Light dark-mode</b>
+            <b style="font-family: 'Comfortaa', cursive;">Light dark-mode</b>
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"><button onclick="myFunction()">Toggle dark mode</button></a>
+            <a class="dropdown-item" href="#"><button onclick="myFunction()" class="btn btn-info">Dark mode</button></a>
 
           </div>
+        </li> -->
+        <li class="nav-item " style="margin-top: -3px;">
+          <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+            <b style="color: goldenrod;font-family: 'Julee', cursive; font-size: larger;
+            ">KiDS</b>
+          </a>
+
+         
+       
+        <!-- <li class="nav-item " style=" width: 22%;
+        margin-left: 27%;">
+          <a class="nav-link " href="#" id="navbardrop">
+            <form class="form-inline" action="/action_page.php" style="    margin-right: 100px;">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search"
+                style=" position: relative; background-color: transparent!important;">
+              <button class="btn " type="submit" style="margin-left: 163px;
+                        position: absolute;">&#128269;</button>
+            </form>
+          </a>
+
         </li>
-      </div>
 
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#"> <span>
-                <h3 style="   color: goldenrod;
-                        font-family: cursive;
-                        margin-top: 12px;
-                        position: sticky;">Kids</h3>
-              </span></a>
+        <li class="nav-item " style="
+    margin-left: -1%;
+    width: 12%;">
+          <a class="nav-link " href="#" id="navbardrop">
+            <button class="btn btn-primary" style=" font-family: 'Prompt', sans-serif;"> subscribe</button>
+          </a>
 
+        </li>
+        <li class="nav-item " style= "margin-left: -1%;">
+          <a class="nav-link " href="#" id="navbardrop"
+            style="  color: white; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <B>LOGIN</B>
+          </a>
 
-        </ul>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-
-      </div>
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <form class="form-inline" action="/action_page.php" style="    margin-right: 100px;">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search"
-          style=" position: relative; background-color: transparent!important;">
-        <button class="btn " type="submit" style="margin-left: 163px;
-                  position: absolute;">&#128269;</button>
-      </form>
-      </button>
-
-      <button class="btn btn-primary" style="  
-           position:absolute;
-            margin-left: 85%; border-color: black;
-           "> subscribe</button>
-      <a href=""
-        style=" position: relative; margin-right: 21px; color: white; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><B>LOGIN</B></a>
-
+        </li> -->
 
     </nav>
   </header>
@@ -124,9 +131,9 @@
 
       <!-- Indicators -->
       <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="0" class="active" style="visibility: hidden;"></li>
+        <li data-target="#demo" data-slide-to="1" style="visibility: hidden;"></li>
+        <li data-target="#demo" data-slide-to="2" style="visibility: hidden;"></li>
       </ul>
 
       <!-- The slideshow -->
@@ -134,108 +141,118 @@
         <div class="carousel-item active">
           <div class="crowsel" style="background-color:#1b2d21;">
             <h2 class="hh">Seeta Raam</h2> <br>
-            <p class="pom">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, cumque, sed unde amet
-              tenetur sunt omnis suscipit reiciendis dolore mollitia assumenda nemo pariatur minima error vitae fuga,
-              voluptatibus et quos?</p>
+            <p class="pom">context will be written here</p>
           </div>
-          <img src="image/1415672-h-5863d7d1b602.webp" alt="Los Angeles">
+          <img class="imgi" src="image/1415672-h-5863d7d1b602.webp" alt="Los Angeles">
         </div>
         <div class="carousel-item">
           <div class="crowsel" style="background-color:#d6d6d6;">
             <h2 class="hh">RORSCHACH</h2>
             <br>
             <p class="pom
-">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, cumque, sed unde amet tenetur sunt omnis suscipit
-              reiciendis dolore mollitia assumenda nemo pariatur minima error vitae fuga, voluptatibus et quos?</p>
+">context will be written here</p>
           </div>
-          <img src="image/white.webp" alt="Chicago">
+          <img class="imgi" src="image/white.webp" alt="Chicago">
         </div>
         <div class="carousel-item">
           <div class="crowsel" style="background-color:#febe16;">
             <h2 class="hh">Comedy Adda 2</h2>
             <br>
             <p class="pom
-">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, cumque, sed unde amet tenetur sunt omnis suscipit
-              reiciendis dolore mollitia assumenda nemo pariatur minima error vitae fuga, voluptatibus et quos?</p>
+">context will be written here</p>
           </div>
-          <img src="image/1363560-h-33ff3a59fd4b.webp" alt="New York">
+          <img class="imgi" src="image/1363560-h-33ff3a59fd4b.webp" alt="New York">
         </div>
       </div>
-
       <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
+
+      <div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
 
     </div>
     <br>
     <div class="tray-container" style="
       width: 100%; height: fit-content;">
-      <h3 class="tray-title" style="margin-left: 10px; ;">Latest & Trending</h3>
+      <a href="Latest.html" target="_new">
+        <h3 class="tray-title qq" style="margin-left: 10px;color: white; font-family: inherit;"> Latest & Trending</h3>
+      </a>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
-      <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
+      <div class="ss nn"><img class="ii" src="image/laddakh.jpg" alt=""></div>
     </div>
     <br>
     <div class="tray-container" style="
        width: 100%; height: fit-content;">
-      <h3 class="tray-title" style="margin-left: 10px;">Populer Shows</h3>
+      <a href="Latest.html" target="_new">
+        <h3 class="tray-title qq" style="margin-left: 10px;color: white; font-family: inherit;">Populer Shows </h3>
+      </a>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
-      <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
+      <div class="ss nn"><img class="ii" src="image/laddakh.jpg" alt=""></div>
 
     </div>
     <br>
     <div class="tray-container" style="
   width: 100%; height: fit-content;">
-      <h3 class="tray-title" style="margin-left: 10px;">Movies Recommended For You</h3>
+      <a href="Latest.html" target="_new">
+        <h3 class="tray-title qq" style="margin-left: 10px;color: white; font-family: inherit;">Movies Recommended For You</h3>
+      </a>
+
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
-      <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
+      <div class="ss nn"><img class="ii" src="image/laddakh.jpg" alt=""></div>
     </div>
     <br>
     <div class="tray-container" style=" width: 100%; height: fit-content;">
-      <h3 class="tray-title" style="margin-left: 10px;">Populer in Reality</h3>
+      <a href="Latest.html" target="_new">
+        <h3 class="tray-title qq" style="margin-left: 10px;color: white; font-family: inherit;">Populer in Reality </h3>
+      </a>
+
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
-      <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
+      <div class="ss nn"><img class="ii" src="image/laddakh.jpg" alt=""></div>
     </div>
     <br>
     <div class="tray-container" style="
   width: 100%; height: fit-content;">
-      <h3 class="tray-title" style="margin-left: 10px; ">Populer in Romance</h3>
+      <a href="Latest.html" target="_new">
+        <h3 class="tray-title qq" style="margin-left: 10px;color: white; font-family: inherit;">Populer in Romance </h3>
+      </a>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
       <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
-      <div class="ss"><img class="ii" src="image/laddakh.jpg" alt=""></div>
+      <div class="ss nn"><img class="ii" src="image/laddakh.jpg" alt=""></div>
     </div>
 
   </main>
   <div id="coupon">
 
-    <button onClick="closeCoupon()">&times;</button>
+    <button onClick="closeCoupon()" class="btn btn-dark">X</button>
     <hr>
     <center>
       <h3>Flat 30% Off</h2>
@@ -250,21 +267,19 @@
   </div>
   <script>
     window.onload = loadCoupon()
-   
+
   </script>
   <hr>
   <div class="geo">
     <center>
-      <button onClick="geolocation()" class="btn btn-info"
-
-">Weather & location</button>
-<p id="out" style="font-family: cursive; margin-top: 10px;"></p>
-<p id="weather" style="font-family: cursive;
+      <button onClick="geolocation()" class="btn btn-info" ">Weather & location</button>
+<p id=" out" style="font-family: cursive; margin-top: 10px;"></p>
+        <p id="weather" style="font-family: cursive;
 color: darkred;
 font-size: 25px;
 margin-top: -10px;;"></p>
     </center>
-</div>
+  </div>
 
   <footer id="footer">
     <center style="margin-left:-20px;">
@@ -279,19 +294,20 @@ margin-top: -10px;;"></p>
       <a href="https://twitter.com/DisneyPlusHS?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
         target="_new"><img class="foot" src="oo/twitter.png" width="30" height="30" alt="twitter"></a>
     </center>
-    
+
 
     <center><b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           word-spacing: 5px; color: white;"> All Right Reserved By Krishna Internship LTD.&trade; </b></center>
 
 
-<script src="geo.js"></script>
+    <script src="geo.js"></script>
 
 
   </footer>
 
 
   <script src="java.js"></script>
+
 
 </body>
 
